@@ -38,6 +38,7 @@ class TV:
         if self.estado:
             self.setVolumen(self.volumen + 1)
 
+
     def volumenDown(self):
         if self.estado:
             self.setVolumen(self.volumen - 1)
@@ -61,6 +62,7 @@ class TV:
         return self.estado
 
     def setMarca(self, marca):
+        
         self.marca = marca
 
     def setCanal(self, canal):
